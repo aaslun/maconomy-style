@@ -1,0 +1,116 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;&display=swap');
+body,
+input,
+.heading, .title, aside, :root {
+    font-family: 'Poppins', sans-serif !important;
+    --font-family-sans-serif: 'Poppins', sans-serif !important;
+}
+.groups > .ng-star-inserted:not(:first-child) {
+    display: none;
+}
+.navbar-brand {
+    height: 43px;
+    width: 200px;
+}
+.navbar .icon.logo {
+    background: url(https://media.tenor.com/M0T62_Ppw2oAAAAM/stressed-problematic.gif) !important;
+    height: 100% !important;
+    width: 100% !important;
+    background-position-y: -40px !important;
+    background-position-x: -20px !important;
+    background-repeat: no-repeat;
+    margin: 0 !important;
+}
+/* User name in header */
+
+dm-reference-element .description {
+    padding: 10px;
+}
+dm-reference-element .key.ng-star-inserted {
+    display: none;
+}
+dm-navbar .banner > div {
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+.navbar-nav .badge {
+    border-radius: 20px;
+    padding: 10px 13px;
+}
+/* Table styling */
+body .k-grid-table {
+    table-layout: auto;
+}
+.k-grid-table td {
+    padding: 20px 0;
+}
+dm-table-field-element .timeduration {
+    text-align: center;
+}
+.k-grid-table td:nth-child(9),
+.k-grid-table td:nth-child(11),
+.k-grid-table td:nth-child(13),
+.k-grid-table td:nth-child(15) {
+    background: #fafafa;
+}
+.k-grid-table td:nth-child(10),
+.k-grid-table td:nth-child(12),
+.k-grid-table td:nth-child(14) {
+    background: #f6f6f6;
+}
+.k-grid-table .k-icon.ng-star-inserted {
+    padding: 27px 0;
+}
+dm-menu {
+    width: auto !important;
+}
+aside {
+    max-width: 200px;
+}
+main {
+    left: 200px !important;
+}
+dm-menu-group ul li p {
+    padding: 20px 0;
+}
+dm-spinner {
+	top:0 !important;
+    right: 20px;
+}
+.spinner:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 16px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: spinner 1.2s infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+.spinner > div {
+	display: none;
+}
+dm-menu-group ul li:has(> a[dm-data-id="dm-workspace-perdiemsheets"]),
+dm-menu-group ul li:has(> a[dm-data-id="dm-workspace-favorites"]),
+dm-menu-group ul li:has(> a[dm-data-id="dm-workspace-myplan"]) {
+    display: none;
+}
+dm-workspace .container-fluid {
+    padding-left: 0;
+}
