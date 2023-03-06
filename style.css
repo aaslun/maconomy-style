@@ -6,6 +6,20 @@ input,
     font-family: 'Poppins', sans-serif !important;
     --font-family-sans-serif: 'Poppins', sans-serif !important;
 }
+.btn {
+	border-radius:40px;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 6px 40px;
+}
+body .navbar {
+    background: #536a41 url(assets/images/ngCRM/backgroundBottom.png) 0 100% repeat-x !important;
+}
+body .footer[_ngcontent-frt-c3] {
+	background-color: #536a41 !important;
+}
 .groups > .ng-star-inserted:not(:first-child) {
     display: none;
 }
