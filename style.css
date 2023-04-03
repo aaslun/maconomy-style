@@ -56,6 +56,19 @@ dm-navbar .banner > div {
 body .k-grid-table {
     table-layout: auto;
 }
+#timeregistrationtable_table > kendo-grid > div > div.k-grid-header > div > table > thead > tr > th:nth-child(8) {
+display: none;
+}
+#timeregistrationtable_table > kendo-grid > div > div.k-grid-footer.ng-star-inserted > div > table > tfoot > tr > td:nth-child(16) > dm-table-footer > div:nth-child(1) > div > dm-presentation-cell > div > dm-table-field-element-wrapper {
+    width: 100px;
+}
+#timeregistrationtable_table > kendo-grid > div > div.k-grid-footer.ng-star-inserted > div > table > tfoot > tr > td:nth-child(16) > dm-table-footer > div:nth-child(1) > div > dm-presentation-cell > div > dm-table-field-element-wrapper > dm-table-field-element > div {
+	height: 50px;
+}
+#timeregistrationtable_table > kendo-grid > div > div.k-grid-footer.ng-star-inserted > div > table > tfoot > tr > td:nth-child(16) > dm-table-footer > div:nth-child(1) > div > dm-presentation-cell > div > dm-table-field-element-wrapper > dm-table-field-element > div > span {
+	font-weight: bolder;
+    font-size: 2rem;
+}
 .k-grid-table td {
     padding: 20px 0;
 }
